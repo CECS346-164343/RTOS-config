@@ -68,6 +68,9 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    /core/include/Drivers/bare_metal_inc
+    /Drivers/bare_metal_inc
+    /Drivers/HAL_functions/inc
 )
 
 # Add project symbols (macros)
